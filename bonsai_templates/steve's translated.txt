@@ -1,0 +1,138 @@
+Steve's form of nav translated for my site....didn't work.
+/*Styles for the navigation*/
+
+nav {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0px 40px 0px 30px;
+    position: relative;
+    font-family: arial, verdana, sans-serif;
+    background-color: #264323; 
+    list-style-type: none;
+}
+
+nav > ul{ 
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0; 
+    padding: 10px 0; 
+}
+
+nav > ul > li {
+    list-style: none;
+    display: inline;
+    margin: 0;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+nav ul li a:hover {
+    color: lightgreen;
+}
+
+nav ul li a {
+    color: lightgreen;
+}
+
+nav ul li ul {
+    position: absolute;
+    z-index: 100;
+    display: none;
+    background-color: green;
+    border-radius: 5px;
+    padding: 4px;
+    box-shadow: 5px 5px 10px #224466;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul li > ul{
+    list-style-type: none;
+    padding: 4px 10px;
+}
+
+/*
+nav ul li ul li a {
+    color: lightblue;
+}
+
+nav ul li ul li a:hover {
+    color: lightcyan;
+}
+*/
+
+
+
+/*
+nav ul::after { 
+    content: ''; 
+    display: block; 
+    clear: both; 
+}
+
+nav ul li:hover { 
+    background-color: #206020; 
+}
+
+nav ul li:hover > ul { 
+    display: block; 
+}
+
+nav ul li a { 
+    display: block;
+    color: #fff; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    width: 120px;
+}
+
+nav ul li a:hover {
+    background-color: #206020; 
+}
+
+nav ul ul { 
+    display: none;
+    position: absolute; 
+    top: 100%; 
+    background-color: #207720; 
+}
+
+nav ul ul li { 
+    position: relative; 
+}
+*/
+
+/*
+nav ul ul ul { 
+    left: 100%; 
+    top: 0px; 
+}
+*/
+
+
+/* Top Level */
+/*
+nav > ul { 
+    padding-left: 50px; 
+}
+
+nav > ul > li { 
+    float: left; 
+}
+
+nav > ul > li > a { 
+    padding: 15px 20px 15px 20px; 
+    width: auto; 
+}
+
+
+*/
+
+
