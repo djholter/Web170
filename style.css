@@ -176,7 +176,7 @@ article#about {
 
 /* Navigation */
 
-nav {
+#navigation {
     background-color: rgba(0,0,0,.65);
     position: absolute;
     top: 0px; left: 0px;
@@ -184,27 +184,27 @@ nav {
     width: 100%;
 }
 
-nav::after {
+#navigation::after {
     content:""; 
     display: block; 
     clear: both;
 }
 
-nav ul {
+#navigation ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-nav ul li:hover {
+#navigation ul li:hover {
     background-color: #2b0306;
 }
 
-nav ul li:hover > ul {
+#navigation ul li:hover > ul {
     display: block;
 }
 
-nav ul li a {
+#navigation ul li a {
     display: inline-block;
     color: #fff;
     padding: 10px 20px;
@@ -213,47 +213,56 @@ nav ul li a {
     position: relative;
 }
 
-nav ul li a:visited {
+#navigation ul li a:visited {
     color: #fff;
 }
 
-nav ul li a:hover {
+#navigation ul li a:hover {
     background-color: #6d0911;
 }
 
-nav ul ul {
+#navigation ul ul {
     position: absolute;
     top: 100%;
     background-color: #2b0306;
     display: none;
 }
 
-nav ul ul li {
+#navigation ul ul li {
     position: relative;
 }
 
-nav ul ul ul {
+#navigation ul ul ul {
     left: 100%;
     top: 0px;
 }
 
+#navigation ul li.current-menu-item a {
+    color: #ace600; 
+}
+
+#navigation ul li.current-menu-item a, {
+color: #ace600;
+}
+
+
 
 /* top-level */
 
-nav > ul  {
+#navigation > ul  {
     padding-left: 200px;
 }
 
-nav > ul > li {
+#navigation > ul > li {
     float: left;
 }
 
-nav > ul > li > a {
+#navigation > ul > li > a {
     width: auto;
     padding: 10px 20px 15px 20px;
 }
 
-nav a[aria-haspopup="true"]::after {
+#navigation a[aria-haspopup="true"]::after {
     content:'';
     display: block;
     width: 0px;
@@ -266,7 +275,7 @@ nav a[aria-haspopup="true"]::after {
     border-left: 4px solid #fff;
 }
 
-nav > ul > li > a[aria-haspopup="true"]::after {
+#navigation > ul > li > a[aria-haspopup="true"]::after {
     border-left: 4px solid transparent;
     border-right: 4px solid transparent;
     border-top: 4px solid #fff;

@@ -1,10 +1,9 @@
 
  
  </div>
-        
-    <!--<Start Footer>-->
+<!--end middle-->
 
-    </div>
+<!--<Start Footer>-->
 
 <!--Begin WP Footer-->
 <?php wp_footer(); ?>
