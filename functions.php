@@ -5,7 +5,7 @@
  Theme URI:    http://holtergraphics.com/wordpress_s17/wp-content/themes/bonsai/
  Description:  Bonsai Educational Center Theme
  Author:       David Holter
- Author URI:   http://holtergraphics.com/wordpress_s17/wp-content/themes/bonsai/
+ Author URI:   http://holtergraphics.com/wordpress_s17/
  Template:     bonsai
  Version:      1.0.0
 */
@@ -69,5 +69,4 @@ function get_Bonsai_title_tag() {
 	
 }
 //
-?>
 ?>
